@@ -22,19 +22,25 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     orange_count = 0
     
     for i in apples:
-        ddul_apples = i + s
-        if ddul_apples > s:
-            apple_count = apple_count + 1
+
+        iii = i + a
+
+        if iii >= s and iii <= t:
+            
+            apple_count= apple_count+1
+        #import code # TODO
+        #code.interact(local=dict(globals(), **locals())) # TODO
+
     for j in oranges:
-        ddul_oranges = i + s
-        if ddul_oranges > s:
-            orange_count = orange_count + 1
+
+        jjj = j + b
+
+        if jjj >= s and jjj <= t:
+            orange_count= orange_count+1
 
     print(apple_count,orange_count, sep='\n')
-    #retur apple_count, orange_count
+    #return apple_count, orange_count
 
-    import code # TODO
-    code.interact(local=dict(globals(), **locals())) # TODO
 
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
