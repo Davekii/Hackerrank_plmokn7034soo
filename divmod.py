@@ -9,4 +9,3 @@ print(a//b)
 print(a%b)
 div = divmod(a,b)
 print(div)
-
