@@ -16,8 +16,6 @@ import sys
 #  6. INTEGER_ARRAY oranges
 #
 
-for d in d:
-    __import__('pprint').pprint()
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     # Write your code here
     apple_count = 0
